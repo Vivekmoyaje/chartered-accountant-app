@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ContactImg from "../assets/Contact-Us-connect.png";
 
 const ContactUsForm = () => {
   const [formData, setFormData] = useState({
@@ -112,12 +113,7 @@ const ContactUsForm = () => {
           </button>
         </form>
       </div>
-      <img
-        src="src\assets\Contact-Us-connect.png"
-        className="rounded-r-xl"
-        width="517px"
-        alt=""
-      />
+      <img src={ContactImg} className="rounded-r-xl" width="517px" alt="" />
     </div>
   );
 };

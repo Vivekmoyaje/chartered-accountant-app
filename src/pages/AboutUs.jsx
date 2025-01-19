@@ -1,4 +1,5 @@
 import React from "react";
+import Img1 from "../assets/about.webp";
 
 const AboutUs = () => {
   return (
@@ -13,11 +14,7 @@ const AboutUs = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <img
-              src="src\assets\about.webp"
-              alt="Office"
-              className="rounded-lg shadow-lg"
-            />
+            <img src={Img1} alt="Office" className="rounded-lg shadow-lg" />
           </div>
           <div>
             <h2 className="text-2xl font-semibold text-purple-800 mb-4">

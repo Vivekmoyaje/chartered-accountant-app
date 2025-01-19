@@ -2,6 +2,7 @@ import React from "react";
 import NavLinkItem from "./NavLinkItem";
 import ResponsiveNavbar from "./ResponsiveNavbar";
 import ContactUs from "./ContactUs";
+import Logo from "../assets/logo.jpg";
 
 const MainNavbar = () => {
   return (
@@ -11,7 +12,7 @@ const MainNavbar = () => {
         <div className="text-2xl md:text-3xl flex justify-between items-center p-2  underline">
           <img
             className="rounded-full mr-2"
-            src="src\assets\logo.jpg"
+            src={Logo}
             height="50px"
             width="50px"
             alt=""

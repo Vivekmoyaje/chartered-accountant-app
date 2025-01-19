@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: "build", // This makes sure Vite outputs to the 'build' folder
   },
-  base: "/chartered-accountant-app/",
+  base: "/chartered-accountant-app",
   plugins: [react()],
 });
